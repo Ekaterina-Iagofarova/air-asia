@@ -51,10 +51,10 @@
   background: url(/air-asia/images/icons/socials/sprites.png) -10px -66px;
 }
 .networks__item_vkontakte::after {
-  background: url(/air-asia/images/icons/socials/sprites.png) -66px -122px;
+  background: url(/air-asia/images/icons/socials/sprites.png) -10px -122px;
 }
 .networks__item_vkontakte:hover::after {
-  background: url(/air-asia/images/icons/socials/sprites.png) -10px -122px;
+  background: url(/air-asia/images/icons/socials/sprites.png) -66px -122px;
 }
 .networks__item_facebook::after{
   background: url(/air-asia/images/icons/socials/sprites.png) -122px -66px;
