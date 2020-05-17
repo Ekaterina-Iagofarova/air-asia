@@ -1,0 +1,17 @@
+.separator{
+  background:  url(/air-asia/images/decor/couple.png) bottom right 25.5% no-repeat, url(/air-asia/images/bg/middleline.jpg) center center;
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.separator__content{
+  max-width: 54%;
+  display: inline-block;
+}
+.separator__title{
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: bold;
+}

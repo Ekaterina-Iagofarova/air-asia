@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  margin-bottom: 44px;
+}
+.about:before, .about__description {
+  display: block;
+  /* display: inline-block;
+  vertical-align: middle; */
+  border-radius: 4px;
+}
+.about:before{
+  content: "";
+  background: url(/air-asia/images/decor/gates.jpg) center center / cover no-repeat;
+  width: 488px;
+  height: 502px;
+}
+.about__description{
+  content: "";
+  background: url(/air-asia/images/decor/mountains2.jpg) center center / cover no-repeat;
+  max-width: 780px;
+  min-height: 454px;
+  padding: 68px 98px;
+  margin-top: 109px;
+  margin-left: -133px;
+  color: #333;
+}
+.about__title{
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 29px;
+}
+.about__text {
+  margin-bottom: 42px;
+  line-height: 1.7;
+}
+.about__text p{
+  margin-bottom: 20px;
+}
+.about__text p:last-child{
+  margin-bottom: 0;
+}
